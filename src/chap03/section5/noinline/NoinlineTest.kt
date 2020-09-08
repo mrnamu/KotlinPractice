@@ -1,6 +1,6 @@
 package chap03.section5.noinline
 
-import chap03.section5.shortFunc
+import chap03.section5.localreturn.shortFunc
 
 fun main() {
     shortFunc(3) { println("First call: $it") }
